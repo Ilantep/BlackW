@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <head>
+    <!-- добавление языка и CSS -->
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="slider.css">
     <title>Черная вдова</title>
-
 </head>
+    <!-- шапка, лого, связь и навигации -->
     <header class="header-img">
         <img src="img/ЧВ.svg"
         width="330" height="150"
         alt="Логотип Черной вдовы">
         <div class="bab">
-            <p><a>8-912-545-70-50</a></p>
+            <p><a class="silki" href="tel:+7-800-555-35-35" title="+7-800-555-35-35">+7-800-555-35-35</a></p>
             <p><a class="silki" href="mailto:Ilantep@mail.ru">Почта</a></p>
         </div>
         <div class="bob">
@@ -20,31 +21,33 @@
             <p><a class="silki" href="shop.html">ТОВАРЫ</a></p>
         </div>
     </header>
-<body class="octyp">
+<body>
+    <!-- создание слайдера -->
     <div class="start-cons">
         О компании
     </div>
     <div class="slider">
+        <!-- 1 слайд -->
         <div class="item">
           <img src="img/1.bmp" alt="Первый слайд">
           <div class="slideText">Предоставляет самые низки цены в городе</div>
       </div>
-  
+        <!-- 2 слайд -->
       <div class="item">
           <img src="img/2.bmp" alt="Второй слайд">
           <div class="slideText">Мы создаем качественные товары</div>
       </div>
-  
+        <!-- 3 слайд -->
       <div class="item">
           <img src="img/3.bmp" alt="Третий слайд">
           <div class="slideText">Компания предоставляет отличные услуги</div>
       </div>
-  
+        <!-- кнопки -->
         <a class="prev" onclick="minusSlide()">&#10094;</a>
         <a class="next" onclick="plusSlide()">&#10095;</a>
   </div>
   <br>
-  
+        <!-- перемещение слайдов -->
   <div class="slider-dots">
       <span class="slider-dots_item" onclick="currentSlide(1)"></span> 
         <span class="slider-dots_item" onclick="currentSlide(2)"></span> 
@@ -52,7 +55,7 @@
   </div>
 
   <script src="script.js"></script>	
-
+        <!-- создание информации о консультанте -->
   <div style="height: auto;">
     <h2 class="start-cons">Консультант:</h2>
     <div class="cons">
@@ -61,8 +64,8 @@
                 <img src="img/КОНСУЛЬТАНТ.jfif" width="250" height="200">
             </div>
             <div class="info-cons">
-                <p class="name-cons">Ван Даркхолм</p>
-                <p>Приемник покойного Билли Херрингтона, который изображен на кресте</p>
+                <p class="name-cons">Билл</p>
+                <p>Приемник покойного Билла, который изображен на кресте</p>
                 <p>Искренняя заинтересованность в успехе и благосостоянии клиентов;
                      забота о людях, а также об организации в целом. Поиск информации о клиенте,
                       которая может понадобиться в дальнейшем.</p>
@@ -72,6 +75,7 @@
 </div>
 </body>
 <footer>
+    <!-- создание подвала в списке -->
     <div class="ft">
     <ul class="spisok">
         <li class="sp">8-912-545-70-50</li>
@@ -80,5 +84,6 @@
         <li class="sp">Россия</li>
     </ul>
     </div>
+    <!-- кнопка наверх -->
     <a href="#" title="Вернуться к началу страницы" class="topNubex">Вверх</a>
 </footer>

@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <head>
+    <!-- добавление языка и CSS -->
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <title>Черная вдова</title>
 </head>
-        <header class="header-img">
-            <img src="img/ЧВ.svg"
-            width="330" height="150"
-            alt="Логотип Черной вдовы">
-            <div class="bab">
-                <p><a>8-912-545-70-50</a></p>
-                <p><a class="silki" href="mailto:Ilantep@mail.ru">Почта</a></p>
-            </div>
-            <div class="bob">
-                <p><a class="silki" href="index.html">ГЛАВНАЯ</a></p>
-                <p><a class="silki" href="about.html">О НАС</a></p>
-                <p><a class="silki" href="shop.html">ТОВАРЫ</a></p>
-            </div>
-        </header>
+    <!-- шапка, лого, связь и навигации -->
+    <header class="header-img">
+        <img src="img/ЧВ.svg"
+        width="330" height="150"
+        alt="Логотип Черной вдовы">
+        <div class="bab">
+            <p><a class="silki" href="tel:+7-800-555-35-35" title="+7-800-555-35-35">+7-800-555-35-35</a></p>
+            <p><a class="silki" href="mailto:Ilantep@mail.ru">Почта</a></p>
+        </div>
+        <div class="bob">
+            <p><a class="silki" href="index.html">ГЛАВНАЯ</a></p>
+            <p><a class="silki" href="about.html">О НАС</a></p>
+            <p><a class="silki" href="shop.html">ТОВАРЫ</a></p>
+        </div>
+    </header>
 <body>
+    <!-- создание 3 кнопок к товарам -->
     <div class="container"> 
     <input type="radio" id="blue" name="color" />
     <label for="blue">УСЛУГИ</label>
@@ -26,7 +29,7 @@
     <label for="red">ТОВАРЫ</label>
     <input type="radio" id="reset" name="color"/>
     <label for="reset">ВСЁ</label>
-
+    <!-- создание товара и их сортировка -->
     <div class="tile blue" ><img src="img/БАНКА.jpg"
         width="100%" height="100%">Кремация 9999$</div>
     <div class="tile red"><img src="img/ВЕНОК.jpg"
@@ -42,6 +45,7 @@
 </div>
 </body>
 <footer>
+    <!-- создание подвала в списке -->
     <div class="ft">
     <ul class="spisok">
         <li class="sp">8-912-545-70-50</li>
@@ -50,5 +54,6 @@
         <li class="sp">Россия</li>
     </ul>
     </div>
+    <!-- кнопка наверх -->
     <a href="#" title="Вернуться к началу страницы" class="topNubex">Вверх</a>
 </footer>

@@ -44,7 +44,10 @@ footer{
   font-size: 24px;
   color: #FFE6D9 !important;
   text-decoration: none;
-
+}
+/* кнопка в шапке */
+.knopka{
+  margin: 15px;
 }
 /* Навигация сайта в шапке */
 .bob{

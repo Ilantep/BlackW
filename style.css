@@ -129,11 +129,11 @@ input[type="radio"][id="red"]:checked ~ .blue, input[type="radio"][id="red"] {
 }
 /* Фон */
 .blue {
-  background:#FFCDA6;
+  background:#none;
 }
 /* Фон */
 .red {
-  background:#FFCDA6;
+  background:none;
 }
 /* Редактирование кнопки вверх */
 .topNubex {
@@ -227,3 +227,20 @@ input[type=submit]:hover {
   opacity: 0.8;
 }
 
+.text {
+  background-color: #fff;
+  border: 1px solid black;
+  width: 70%;
+  position: relative;
+  left: 15%;
+}
+
+.photo{
+  margin-bottom: 5px;
+}
+
+.center{
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
